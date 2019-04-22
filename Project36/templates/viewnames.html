@@ -1,0 +1,8 @@
+
+<table align="center">
+    <tr><th width="200"> Employee Name's</th></tr>
+
+    {% for x in object_list %}
+        <tr><th>{{ x.name }}</th></tr>
+    {% endfor %}
+</table>
